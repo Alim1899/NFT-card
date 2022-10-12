@@ -1,0 +1,95 @@
+
+.main{
+    width:100%;
+    height:100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+}
+
+.card{
+    max-width: 350px;
+    position: absolute;
+    color:white;
+}
+img{
+border-radius: 15px;
+width:100%;
+}
+.desc{
+    color: #8BACD9;
+
+}
+.price{
+    display: flex;
+    border-bottom:1px solid #2E405A;
+    font-size: 14px;
+    align-items: center;
+}
+.day{
+    display: flex;
+    
+   color: #8BACD9;
+    margin-left: 45%;
+}
+.clock{
+    width: 1rem;
+    margin-right: 5px;
+}
+.eth{
+    color: cyan;
+    display: flex;
+    align-items: center;
+}
+.eth-icon{
+    width:14px;
+    padding-right: 5px;
+}
+span{
+    color: #8BACD9;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width:33px;
+border:1px solid white;
+border-radius: 50%;
+}
+.eye{
+    width: 40px;
+    margin: 45%;
+}
+.eyebg{
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #00FFF8;
+    opacity:0.6;
+    z-index: -1;
+}
+.size{
+    width:350px;
+    height: 596px;;
+      background-color: #15263F;
+      border-radius: 15px;
+      padding:25px;
+      font-family:Verdana,  sans-serif;
+}
+.eyebg>.card:hover{
+z-index: 1;    cursor: pointer;
+}
+
+.size>.card:hover{
+    color: cyan;
+}
+
+.eyebg>main:hover{
+     cursor: pointer;
+    }
